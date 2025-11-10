@@ -65,9 +65,4 @@ public class MainController
 	}
 	
 	
-	@GetMapping("/get")
-	public String demoMethodHandler()
-	{
-	     return "Demo Project";
-	}
 }
