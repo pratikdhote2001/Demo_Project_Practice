@@ -63,4 +63,11 @@ public class MainController
 		return ResponseEntity.status(HttpStatus.CREATED).body("Data Deleted Sucessfully");
 		
 	}
+	
+	
+	@GetMapping("/get")
+	public String demoMethodHandler()
+	{
+	     return "Demo Project";
+	}
 }
