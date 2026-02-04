@@ -72,4 +72,9 @@ public class MainController
 		return "Hello";
 	}
 	
+	public String Pratik()
+	{
+		return "Hello";
+	}
+	
 }
