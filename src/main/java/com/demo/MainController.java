@@ -67,4 +67,9 @@ public class MainController
 	
 	
 	
+	public String setData()
+	{
+		return "Hello";
+	}
+	
 }
